@@ -25,6 +25,10 @@ The app will also show you a 5-day forecast for the city, with the same informat
 
 You can use this app to plan your trips according to the weather outlook for multiple cities.
 
+## Credit
+
+N/A
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
