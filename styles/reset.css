@@ -1,0 +1,95 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.weather-header {
+    background: linear-gradient(to right, #3498db, #34495e);
+    padding: 10px;
+    font-weight: bold;
+}
+
+.form-label {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.weather-search {
+    height: 40px;
+}
+
+.search-button {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.input-group-append{
+    width: 100%;
+}
+
+.today-title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.weather-data-list {
+    list-style: none;
+    padding: 0;
+}
+
+.weather-data-list li{
+    margin: 10px;
+}
+
+.forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.list-group {
+    max-height: 60vh;
+    overflow-y: scroll;
+}
+
+.forecast-card {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.history-item-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.history-list-item {
+    width: 80%;
+    background-color: rgb(165, 164, 163);
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+}
+
+.history-list-item:hover {
+    width: 80%;
+    background-color: rgb(111, 111, 111);
+}
+
+@media only screen and (max-width: 600px) {
+    .forecast-card {
+        width: 100%;
+    }
+}
